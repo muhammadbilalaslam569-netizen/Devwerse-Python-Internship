@@ -7,13 +7,13 @@ while True:
         print("Calculator shutting down...")
         break
 
-    # Addition
+    # addition 
     if operation == "+":
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
         print("Result:", num1 + num2)
 
-    # Subtraction
+    # minus
     elif operation == "-":
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
@@ -35,7 +35,7 @@ while True:
         else:
             print("Result:", num1 / num2)
 
-    # Sine
+    # Sin
     elif operation == "sin":
         angle = float(input("Enter angle: "))
         unit = input("Is the angle in Degrees or Radians? (d/r): ").lower()
@@ -45,7 +45,7 @@ while True:
 
         print("Result:", math.sin(angle))
 
-    # Cosine
+    # Cosin
     elif operation == "cos":
         angle = float(input("Enter angle: "))
         unit = input("Is the angle in Degrees or Radians? (d/r): ").lower()
@@ -55,7 +55,7 @@ while True:
 
         print("Result:", math.cos(angle))
 
-    # Invalid operation
+    # Invalid 
     else:
         print("Invalid operation. Please try again.")
 
